@@ -21,3 +21,20 @@ Classe [troca_devolucao]: 47.46%
 # 2 - Adicionar mais exemplos ao dataset para aumentar a precisão do modelo.
 # 3 - O Naive Bayes calcula a probabilidade de uma mensagem pertencer a cada intenção e escolhe a classe com maior probabilidade.
 
+--- RESULTADOS DO LAB 03 ---
+Mensagem: Acurácia do Modelo: 0.00%
+
+# 1 - A acurácia foi de 0%. Como são só 9 exemplos, o teste fica muito pequeno e o resultado pode não mostrar o desempenho real do modelo.
+# 2 - Ela olha as palavras das mensagens e vai fazendo divisões para descobrir qual é a intenção.
+# 3 - A árvore pode ficar grande demais e acabar decorando os exemplos, tendo dificuldade para classificar mensagens novas.
+
+--- RESULTADOS DO LAB 04 ---
+Mensagem: 'Gostaria de adquirir um voo para Recife' ==> Intenção: [comprar_passagem]
+Mensagem: 'Preciso cancelar o meu voo' ==> Intenção: [cancelar_reserva]
+Mensagem: 'Quero conversar com um funcionário' ==> Intenção: [falar_atendente]
+
+# 1 - "Gostaria de adquirir um voo para Recife" → comprar_passagem
+# 2 - "Preciso cancelar o meu voo" → cancelar_reserva   
+# 3 - "Quero conversar com um funcionário" → falar_atendente
+
+Usamos o CountVectorizer para transformar as frases em números e a LogisticRegression para identificar a intenção de cada mensagem. O modelo foi treinado com 12 frases e 3 intenções diferentes.

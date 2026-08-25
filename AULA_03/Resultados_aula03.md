@@ -81,8 +81,6 @@ print("--- RESULTADOS DO LAB 03 (AULA 03) ---")
 print("Mensagem:")
 print(f"Acuracia via Pipeline: {accuracy_score(y_test, predicoes) * 100:.2f}%")
 
-
-
 #Mensagem:
 #Acuracia via Pipeline: 0.00%
 

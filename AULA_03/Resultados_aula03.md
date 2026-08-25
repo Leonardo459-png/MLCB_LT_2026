@@ -35,3 +35,6 @@ F1-Score combina precision e recall em uma unica medida
 --- RESULTADOS DO LAB 03 (AULA 03) ---
 Mensagem:
 Acuracia via Pipeline: 0.00%
+
+# 2 - A vantagem é organizar e automatizar todas as estapas do nosso modelo.
+# 3 - Porque ele tem garantia que as mesmas etapas de pré-processamento sejam automaticamente aplicada no teste para nao ter erro e pequenas diferencas.

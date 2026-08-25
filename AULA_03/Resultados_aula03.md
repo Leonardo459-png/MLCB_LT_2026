@@ -6,3 +6,29 @@ Vocabulário Filtrado (sem stopwords): ['2a', '2a via', 'aberto', 'acordo', 'aco
 # 1 - ele deixar o tamanho menor e geralmente não ajudam a identificar a intenção da mensagem 
 # 2 -  `ngram_range=(1, 2)` faz o modelo considerar palavras isoladas (1-gram) e combinações de duas palavras (2-gram), como **“segunda via”**, ajudando a identificar melhor o contexto das mensagens.
 # 3 - A remoção de palavras genéricas reduz o **ruído** e faz o modelo focar nas palavras mais importantes da mensagem, diminuindo as chances de uma classificação incorreta.
+
+
+--- RESULTADOS DO LAB 02 (AULA 03) ---
+
+--- Relatório de Classificação ---
+                     precision    recall  f1-score   support
+
+horario_atendimento       0.50      1.00      0.67         1
+        localizacao       0.00      0.00      0.00         1
+    troca_devolucao       0.00      0.00      0.00         1
+
+           accuracy                           0.33         3
+          macro avg       0.17      0.33      0.22         3
+       weighted avg       0.17      0.33      0.22         3
+
+--- Matriz de Confusão ---
+[[1 0 0]
+ [1 0 0]
+ [0 1 0]]
+
+# 1 - Precision ele mostra previsões se estavam corretamente no modelo. Recall esclarece o casos que o modelo identificaram corretamente.
+F1-Score combina precision e recall em uma unica medida
+# 2 - A diagonal principal representa as previsões que o modelo identificou. Quanto maior a quantidade de valores na diagonal, melhor fica o seu desempenho do modelo.
+# 3 - Porque uma classe com muitos exemplos pode dominar o resultado. O modelo pode ter alta acurácia, mas apresentar um desempenho ruim nas classes com poucos exemplos.
+
+ 

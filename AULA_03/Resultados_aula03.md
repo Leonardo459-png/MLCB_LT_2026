@@ -32,3 +32,6 @@ F1-Score combina precision e recall em uma unica medida
 # 3 - Porque uma classe com muitos exemplos pode dominar o resultado. O modelo pode ter alta acurácia, mas apresentar um desempenho ruim nas classes com poucos exemplos.
 
  
+--- RESULTADOS DO LAB 03 (AULA 03) ---
+Mensagem:
+Acuracia via Pipeline: 0.00%

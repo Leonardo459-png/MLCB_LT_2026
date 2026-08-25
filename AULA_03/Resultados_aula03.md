@@ -33,9 +33,7 @@ F1-Score combina precision e recall em uma unica medida
 
 
 --- RESULTADOS DO LAB 03 (AULA 03) ---
-# ============================================================
-# LAB 03 - AULA 03 (MLCB): Scikit-Learn Pipeline (Modo TODO)
-# ============================================================
+
 import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.feature_extraction.text import TfidfVectorizer

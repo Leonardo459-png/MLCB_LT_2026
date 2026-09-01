@@ -26,3 +26,31 @@ logistica_entregas       1.00      1.00      1.00         6
 
 [Teste 1/10]
 Digite a frase do cliente: 
+
+# - Atividade 2: Construção do Zero (Versão 2 — Decision Tree e 8 Testes Digitados)
+
+=== MATRIZ DE CONFUSÃO ===
+[[4 0 0 0 2]
+ [1 4 1 0 0]
+ [0 0 6 0 0]
+ [0 0 1 5 0]
+ [0 0 0 1 5]]
+
+=== RELATÓRIO DE CLASSIFICAÇÃO ===
+                    precision    recall  f1-score   support
+
+logistica_entregas       0.80      0.67      0.73         6
+       reclamacoes       1.00      0.67      0.80         6
+           suporte       0.75      1.00      0.86         6
+ trocas_devolucoes       0.83      0.83      0.83         6
+            vendas       0.71      0.83      0.77         6
+
+          accuracy                           0.80        30
+         macro avg       0.82      0.80      0.80        30
+      weighted avg       0.82      0.80      0.80        30
+
+
+=== INICIANDO BATERIA DE TESTES (8 INPUTS OBRIGATÓRIOS) ===
+
+[Teste 1/8]
+Digite a frase do cliente:

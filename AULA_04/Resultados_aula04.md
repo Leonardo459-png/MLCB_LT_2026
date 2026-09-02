@@ -53,4 +53,6 @@ logistica_entregas       0.80      0.67      0.73         6
 === INICIANDO BATERIA DE TESTES (8 INPUTS OBRIGATÓRIOS) ===
 
 [Teste 1/8]
-Digite a frase do cliente:
+Digite a frase do cliente: reclamacoes
+Intenção: trocas_devolucoes
+Probabilidade: 100.00%

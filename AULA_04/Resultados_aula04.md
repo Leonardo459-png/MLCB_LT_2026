@@ -57,3 +57,12 @@ logistica_entregas       0.80      0.67      0.73         6
 Digite a frase do cliente: reclamacoes
 Intenção: trocas_devolucoes
 Probabilidade: 100.00%
+
+
+# - Atividade 3: Relatório Comparativo de Modelos
+
+Modelo          Acurácia Geral         F1-Score (Weighted)     Principais Confusões na Matriz
+
+KNN (K=3)       [Inserir Acurácia]     [Inserir F1-Score]      [Ex: Confundiu 'Troca' com 'Cancelamento' e 'Dúvida' com 'Reclamação']
+
+Decision Tree   [Inserir Acurácia]     [Inserir F1-Score]      [Ex: Maior taxa de erro entre 'Status do Pedido' e 'Rastreio']

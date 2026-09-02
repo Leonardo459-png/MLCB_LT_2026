@@ -66,3 +66,20 @@ Modelo          Acurácia Geral         F1-Score (Weighted)     Principais Confu
 KNN (K=3)       [Inserir Acurácia]     [Inserir F1-Score]      [Ex: Confundiu 'Troca' com 'Cancelamento' e 'Dúvida' com 'Reclamação']
 
 Decision Tree   [Inserir Acurácia]     [Inserir F1-Score]      [Ex: Maior taxa de erro entre 'Status do Pedido' e 'Rastreio']
+
+ # - 2. Análise Prática dos Testes de Entrada (input())
+
+ Comportamento do KNN (10 testes manuais):
+O KNN foi submetido a 10 frases em tempo real. Para cada entrada, o algoritmo mapeou a intenção e calculou seu nível de certeza. Em previsões com confiança igual ou superior a 50%, a resposta foi classificada normalmente. Já nas entradas em que a probabilidade ficou abaixo dos 50%, o mecanismo de fallback respondeu conforme o esperado, direcionando a interação para o atendimento humano.
+
+Comportamento da Decision Tree (8 testes manuais):
+A Decision Tree passou por 8 testes interativos. Seguindo a mesma lógica de validação por probabilidade, o modelo indicou a intenção estimada junto com o percentual de confiança. Da mesma forma, qualquer entrada com probabilidade inferior a 50% acionou com sucesso o fallback, sinalizando o transbordo para um atendente.
+
+# - 3. Veredito e Escolha do Modelo
+
+Modelo Recomendado: [KNN ou Decision Tree]
+
+Justificativa Técnica:
+A decisão apoia-se no equilíbrio entre as métricas consolidadas (Acurácia Geral e F1-Score Weighted) e o comportamento prático observado nos testes interativos.
+
+O modelo selecionado demonstrou maior consistência ao interpretar a semântica das frases, apresentou um padrão de erros mais previsível na Matriz de Confusão e manteve um acionamento seguro do fallback em casos ambíguos — o que garante menor taxa de falsos positivos no atendimento final ao cliente.

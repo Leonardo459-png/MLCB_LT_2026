@@ -25,7 +25,8 @@ logistica_entregas       1.00      1.00      1.00         6
 === INICIANDO BATERIA DE TESTES (10 INPUTS OBRIGATÓRIOS) ===
 
 [Teste 1/10]
-Digite a frase do cliente: 
+Digite a frase do cliente: vendas
+Fallback: encaminhando o cliente para a equipe humana 
 
 # - Atividade 2: Construção do Zero (Versão 2 — Decision Tree e 8 Testes Digitados)
 

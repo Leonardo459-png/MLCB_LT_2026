@@ -15,9 +15,8 @@ Vetores criados!
 Formato de X: (20, 50)
 Modelo supervisionado treinado!
 
-==============================
 TESTE DO MODELO
-==============================
+
 Intenção: comprar_imovel
 Confiança: 99.2%
 Status: IDENTIFICADO (comprar_imovel) | Confiança: 99.2% | Corte mínimo: 65%
